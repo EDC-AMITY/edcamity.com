@@ -3,11 +3,11 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home | eDC</title>
+	<title>Events | eDC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="eDC" />
-	<meta name="keywords" content="We are eDC" />
-	<meta name="author" content="Priyanshu Tiwari" />
+	<meta name="description" content="Events at eDC" />
+	<meta name="keywords" content="Events at eDC Events by eDC" />
+	<meta name="author" content="eDC Tech Team" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -41,6 +41,11 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 	</head>
 	<body>
 		
@@ -51,14 +56,13 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-xs-2">
-					<img style="width:100px;" src="images/edclogo.png" class="img-responsive"/>
-					<!--<div id="gtco-logo"><a href="index.html">eDC.</a></div>-->
+					<img style="width:100px;" src="images/edclogo.png"/>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li class="has-dropdown">
+						<li class="has-dropdown active">
 							<a href="services.html">Events</a>
 							<ul class="dropdown">
 								<li><a href="#">Tradewars</a></li>
@@ -67,11 +71,11 @@
 							</ul>
 						</li>
 						<li class="has-dropdown">
-							<a href="about.html/#gtco-team">The Team</a>
+							<a href="#">The Team</a>
 							<ul class="dropdown">
 								<li><a href="#">Technical</a></li>
 								<li><a href="#">Operations</a></li>
-								<li><a href="#">Sponsorship</a></li>
+								<li><a href="#">Marketing</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.html">Reach Us</a></li>
@@ -82,19 +86,14 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/bck.png);opacity:0.9;">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
+				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>We are eDC.</h1>
-							<h2>Entrepreneurship Development Center<br>
-Amity School of Engineering and Technology<hr width="50%"></h2>
-							<p>
-								<a href="#" class="btn btn-info btn-lg">Explore</a> 
-							</p>
+							<h1>Events</h1>
 						</div>
 					</div>
 				</div>
@@ -105,58 +104,135 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						
-							<img src="images/think.png"/><br><br>
-						
-						<h3>We do the special things.</h3>
-						<p>Over the past few years, eDC has established it's mark in Amity University for encouraging entrepreneurship and unconventional career paths. </p>
-					
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-eye"></i>
+						</span>
+						<h3>Induction</h3>
+						<p>We organized Induction</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="images/light.png"/><br><br>
-						<h3>We have been Around for a while</h3>
-						<p>eDC was started back in 2014, with a simple goal. To turn conventional thinkers to unconventional doers. </p>
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-command"></i>
+						</span>
+						<h3>Talent Pool</h3>
+						<p>We also organized talent pool.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="images/join.png"/><br><br>
-						<h3>Come! Join us. <br>Together we stand.</br></h3>
-						<p>eDC welcomes new members to its team every year through its Induction events which is an interactive session between the newbies and the team.</p>
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-power"></i>
+						</span>
+						<h3>Brain Storming</h3>
+						<p>We also organized Brain storming events.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-eye"></i>
+						</span>
+						<h3>Co</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-command"></i>
+						</span>
+						<h3>Fully Responsive</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center">
+						<span class="icon">
+							<i class="icon-power"></i>
+						</span>
+						<h3>Web Starter</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<div class="gtco-cover gtco-cover-sm" style="background-image:url(images/img_bg_3.jpg);">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>We keep it simple</h1>
+							<h2>We are eDC. We are doers.</h2>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+	
 	<div id="gtco-features-2">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Watch The events we conducted.</h2>
-					<p>HI we conduct events</p>
+					<h2>Why Choose Us</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
-			
 			<div class="row">
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
-						<div class="overlay"></div>
+				<div class="col-md-6">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Retina Ready</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
-						<div class="overlay"></div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Fully Responsive</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
 					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Ready To Use</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
 				</div>
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
+
+				<div class="col-md-6">
+					<div class="gtco-video gtco-bg" style="background-image: url(images/img_1.jpg); ">
 						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
@@ -165,61 +241,6 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 		</div>
 	</div>
 
-	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(images/img_bg_2.jpg);">
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-eye"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2207" data-speed="500" data-refresh-interval="1">1</span>
-								<span class="counter-label">Creativity Fuel</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-anchor"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="300" data-speed="500" data-refresh-interval="0.5">1</span>
-								<span class="counter-label">Events Conducted</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-briefcase"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="300" data-speed="500" data-refresh-interval=".5">1</span>
-								<span class="counter-label">Projects Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2120" data-speed="500" data-refresh-interval="1">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	
-	
 
 	<div id="gtco-subscribe">
 		<div class="gtco-container">
@@ -235,13 +256,13 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your email">
+								<input type="email" class="form-control" id="email" placeholder="Your email">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+								<input type="text" class="form-control" id="name" placeholder="Your name">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -320,7 +341,7 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 						<li><a href="#">Meetups</a></li>
 					</ul>
 				</div>
-
+				
 			</div>
 		-->
 			<div class="row copyright">
@@ -341,9 +362,9 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 			</div>
 
 		</div>
-	</footer>	
+	</footer>
 	</div>
-
+	-->
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>

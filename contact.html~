@@ -3,11 +3,13 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Home | eDC</title>
+	<title>Reach Us</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="eDC" />
-	<meta name="keywords" content="We are eDC" />
-	<meta name="author" content="Priyanshu Tiwari" />
+	<meta name="description" content="eDC contact page Reach us" />
+	<meta name="keywords" content="edc Contact Page" />
+	<meta name="author" content=" eDCTech and Co. " />
+
+	
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -41,6 +43,11 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 	</head>
 	<body>
 		
@@ -51,12 +58,11 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-xs-2">
-					<img style="width:100px;" src="images/edclogo.png" class="img-responsive"/>
-					<!--<div id="gtco-logo"><a href="index.html">eDC.</a></div>-->
+					<img style="width:100px;" src="images/edclogo.png"/>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li class="has-dropdown">
 							<a href="services.html">Events</a>
@@ -67,14 +73,14 @@
 							</ul>
 						</li>
 						<li class="has-dropdown">
-							<a href="about.html/#gtco-team">The Team</a>
+							<a href="#">The Team</a>
 							<ul class="dropdown">
 								<li><a href="#">Technical</a></li>
 								<li><a href="#">Operations</a></li>
-								<li><a href="#">Sponsorship</a></li>
+								<li><a href="#">Marketing</a></li>
 							</ul>
 						</li>
-						<li><a href="contact.html">Reach Us</a></li>
+						<li class="active"><a href="contact.html">Reach Us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -82,19 +88,14 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/bck.png);opacity:0.9;">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-12 col-md-offset-0 text-center">
+				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>We are eDC.</h1>
-							<h2>Entrepreneurship Development Center<br>
-Amity School of Engineering and Technology<hr width="50%"></h2>
-							<p>
-								<a href="#" class="btn btn-info btn-lg">Explore</a> 
-							</p>
+							<h1>Get In Touch</h1>
 						</div>
 					</div>
 				</div>
@@ -102,125 +103,67 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 		</div>
 	</header>
 	
-	<div id="gtco-features">
+	<div class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						
-							<img src="images/think.png"/><br><br>
-						
-						<h3>We do the special things.</h3>
-						<p>Over the past few years, eDC has established it's mark in Amity University for encouraging entrepreneurship and unconventional career paths. </p>
-					
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="images/light.png"/><br><br>
-						<h3>We have been Around for a while</h3>
-						<p>eDC was started back in 2014, with a simple goal. To turn conventional thinkers to unconventional doers. </p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<img src="images/join.png"/><br><br>
-						<h3>Come! Join us. <br>Together we stand.</br></h3>
-						<p>eDC welcomes new members to its team every year through its Induction events which is an interactive session between the newbies and the team.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+				<div class="col-md-6 animate-box">
+					<h3>Get In Touch</h3>
+					<form action="#">
+						<div class="row form-group">
+							<div class="col-md-6">
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+							</div>
+							<div class="col-md-6">
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+							</div>
+						</div>
 
-	<div id="gtco-features-2">
-		<div class="gtco-container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Watch The events we conducted.</h2>
-					<p>HI we conduct events</p>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="email">Email</label>
+								<input type="text" id="email" class="form-control" placeholder="Your email address">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="subject">Subject</label>
+								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary">
+						</div>
+
+					</form>		
+				</div>
+				<div class="col-md-5 col-md-push-1 animate-box">
+					
+					<div class="gtco-contact-info">
+						<h3>A.S.E.T</h3>
+						<ul>
+							<li class="address">Amity University<br>Noida, UP, India</li>
+							<li class="phone"><a href="tel://+91 965 070 9984">+91 8800857314</a></li>
+							<li class="email"><a href="mailto:info@yoursite.com">realtp9@gmail.com</a></li>
+							<li class="url"><a href="http://edcamity.com">edcamity.com</a></li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
 			
-			<div class="row">
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(images/bck.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-
-	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(images/img_bg_2.jpg);">
-		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-eye"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2207" data-speed="500" data-refresh-interval="1">1</span>
-								<span class="counter-label">Creativity Fuel</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-anchor"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="300" data-speed="500" data-refresh-interval="0.5">1</span>
-								<span class="counter-label">Events Conducted</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-briefcase"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="300" data-speed="500" data-refresh-interval=".5">1</span>
-								<span class="counter-label">Projects Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2120" data-speed="500" data-refresh-interval="1">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	
-	
-
 	<div id="gtco-subscribe">
 		<div class="gtco-container">
 			<div class="row animate-box">
@@ -235,13 +178,13 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your email">
+								<input type="email" class="form-control" id="email" placeholder="Your email">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
 								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+								<input type="text" class="form-control" id="name" placeholder="Your name">
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -253,6 +196,7 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 		</div>
 	</div>
 
+	
 	<footer id="gtco-footer" role="contentinfo">
 	<!--	<div class="gtco-container">
 			<div class="row row-pb-md">
@@ -320,7 +264,7 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 						<li><a href="#">Meetups</a></li>
 					</ul>
 				</div>
-
+				
 			</div>
 		-->
 			<div class="row copyright">
@@ -341,7 +285,7 @@ Amity School of Engineering and Technology<hr width="50%"></h2>
 			</div>
 
 		</div>
-	</footer>	
+	</footer>
 	</div>
 
 	<div class="gototop js-top">
